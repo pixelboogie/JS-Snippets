@@ -1,0 +1,19 @@
+<head>
+</head>
+<script type="text/javascript">
+const getPeopleInSpace = () =>
+    fetch('http://api.open-notify.org/astros.json')
+      .then(res => res.json());
+
+const spaceNames = () =>
+    getPeopleInSpace()
+        .then(json => json.people)
+        .then(people => people.map(p => p.name))
+        .then(names => names.join(', '));
+
+    spaceNames()
+    .then(console.log);
+</script>
+<body>
+<p>This is in an HTML page because the fetch API is not implemented in Node, so It's just easier to run in a browser.</p>
+</body>
