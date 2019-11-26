@@ -1,0 +1,22 @@
+{
+  "name": "myjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelboogie/JS-Snippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixelboogie/JS-Snippets/issues"
+  },
+  "homepage": "https://github.com/pixelboogie/JS-Snippets#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1"
+  }
+}
