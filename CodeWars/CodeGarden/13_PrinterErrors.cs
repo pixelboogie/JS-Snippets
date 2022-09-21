@@ -2,6 +2,14 @@ using System;
 
 public class Printer 
 {
+
+ static void Main()
+    {
+        Console.WriteLine("Main Starting...");
+        PrinterError("abcxxx");
+    }
+
+
     public static string PrinterError(String s) 
     {
         int charCount = 0;
@@ -18,6 +26,16 @@ public class Printer
                 errorCount++;
             }
         }
+        Console.WriteLine(errorCount + "/" + charCount);
         return errorCount + "/" + charCount;
     }
 }
+
+
+
+
+
+
+
+
+

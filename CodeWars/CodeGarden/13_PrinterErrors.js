@@ -25,5 +25,5 @@ function printerError(s) {
 }
 
 
-const s = "abcxx";
+const s = "abcxxxx";
 console.log(printerError(s));
